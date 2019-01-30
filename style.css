@@ -1,0 +1,37 @@
+#weekly-stats {
+    width: 70rem;
+    overflow: hidden;
+    animation: linear 2s ease-in-out 0.5s infinite normal forwards;
+}
+li {
+    animation: linear;
+}
+.espn-container {
+    display: flex;
+    border: black 1px solid;
+    width: 70rem;
+}
+footer {
+    width: 25rem;
+}
+.border-right {
+    border-right: 1px solid white;
+}
+body {
+    background: gray;
+    color: white;
+}
+.current-teams {
+    padding-right: 4rem;
+}
+
+.espn_logo {
+    height: 4rem;
+    width: 10rem;
+}
+
+.e_logo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.4rem;
+}
