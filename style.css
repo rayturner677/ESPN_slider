@@ -9,6 +9,7 @@ li {
 .espn-container {
     display: flex;
     border: black 1px solid;
+    background-color: #232323;
     width: 70rem;
 }
 footer {
@@ -26,12 +27,36 @@ body {
 }
 
 .espn_logo {
-    height: 4rem;
-    width: 10rem;
+    height: 3.2rem;
 }
 
 .e_logo {
-    height: 4rem;
-    width: 4rem;
+    height: 3.2rem;
     border-radius: 0.4rem;
+}
+
+div.bg-fade {
+    background-image: linear-gradient(to right, #232323, brown);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(100%, 0);
+    }
+}
+
+.ticker {
+    display: block;
+    width: 14rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+footer span {
+    display: block;
+    /* padding-left: 100%; */
+    animation: scroll 7s infinite linear;
 }
