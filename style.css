@@ -10,7 +10,7 @@ li {
     display: flex;
     border: black 1px solid;
     background-image: linear-gradient(to right, #232323, brown);
-    width: 70;
+    width: 70rem;
     height: 4rem;
 }
 footer {
