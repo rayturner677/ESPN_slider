@@ -10,7 +10,8 @@ li {
     display: flex;
     border: black 1px solid;
     background-image: linear-gradient(to right, #232323, brown);
-    width: 70rem;
+    width: 70;
+    height: 4rem;
 }
 footer {
     width: 25rem;
@@ -62,8 +63,8 @@ body {
 
 .active {
     display: block;
-    /* padding-left: 100%; */
-    animation: scroll 10s infinite linear;
+    padding-left: 10%;
+    animation: scroll 7s infinite linear;
 }
 
 .hide {
@@ -81,9 +82,8 @@ body {
 .first-div {
     width: 35rem;
 }
-p span{
+.ticker-info {
     float: right;
-    padding-right: .5rem;
+    width: 98%;
 }
-
 
